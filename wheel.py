@@ -13,7 +13,7 @@ pygame.display.set_caption("Icebreaker Question Spinner")
 WHITE = (224, 255, 255)
 BLACK = (0, 0, 0)
 BLUE = (0, 0, 255)  # Blue color for the arrow
-FONT = pygame.font.Font(None, 36)  # Slightly larger font for visibility
+FONT = pygame.font.Font(None, 24)  # Slightly larger font for visibility
 
 # Wheel configuration
 NUM_SEGMENTS = 8
