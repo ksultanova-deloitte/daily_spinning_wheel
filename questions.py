@@ -47,7 +47,6 @@ all_questions = [
     "If you’re at trivia night, what category would you know most about?",
     "What’s an album you recommend that has no bad songs?",
     "What’s the worst haircut you ever had?",
-    "What’s your most successful dance move? Do you dare show it?",
     "What’s an obscure TV show or movie that everyone should watch?",
     "If you had to describe how you’re feeling right now as a weather pattern, what’s your forecast?",
     "What’s an under-rated skill everyone can benefit from?",

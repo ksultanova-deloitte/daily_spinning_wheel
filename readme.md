@@ -2,6 +2,8 @@
 
 Welcome to the Icebreaker Question Spinner game! This Python-based application is designed to make your Daily meetings more engaging by randomly selecting icebreaker questions. The game features a colorful spinning wheel that stops on a random question, which can then be used to spark interesting conversations.
 
+Contributions are welcome to make it less ugly :)
+
 ## Features
 
 - **Random Question Selection**: The game features a spinning wheel with eight randomly selected questions from a pool of over 200.

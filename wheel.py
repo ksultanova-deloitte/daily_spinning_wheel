@@ -2,22 +2,24 @@ import pygame
 import random
 import math
 import sys
+from questions import all_questions
+
 
 # Set up the screen
 pygame.init()
-WIDTH, HEIGHT = int(800 * 1.2), int(600 * 1.2)
+WIDTH, HEIGHT = int(800 * 1.2), int(600 * 1.3)
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Icebreaker Question Spinner")
 
 # Colors and font
 WHITE = (224, 255, 255)
 BLACK = (0, 0, 0)
-BLUE = (0, 0, 255)  # Blue color for the arrow
-FONT = pygame.font.Font(None, 24)  # Slightly larger font for visibility
+BLUE = (0, 0, 255)
+FONT = pygame.font.Font(None, 24)
 
 # Wheel configuration
 NUM_SEGMENTS = 8
-RADIUS = int(250 * 1.2)  # Increase the radius proportionally
+RADIUS = int(250 * 1.2)
 CENTER = (WIDTH // 2, HEIGHT // 2)
 ANGLE = 360 / NUM_SEGMENTS
 
@@ -31,19 +33,6 @@ COLORS = [
     (102, 255, 178),  # Light Blue
     (102, 178, 255),  # Blue
     (178, 102, 255),  # Purple
-]
-
-# Full list of over 200 questions (example)
-all_questions = [
-    "What's your favorite movie?",
-    "If you could travel anywhere, where would you go?",
-    "What's your hidden talent?",
-    "What's the best book you've ever read?",
-    "What's your dream job?",
-    "What's your favorite hobby?",
-    "If you could meet anyone, who would it be?",
-    "What's your favorite food?",
-    # ... add more questions up to 200+
 ]
 
 # Randomly select 8 questions from the full list
