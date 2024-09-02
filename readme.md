@@ -20,3 +20,20 @@ To get started with the Icebreaker Question Spinner, follow these steps:
 
 ```bash
 pip install pygame
+```
+
+### Download the Code
+1. Clone this repository or download the source code files.
+2. Ensure you have the following files:
+- main.py (The main game file)
+- questions.py (The file containing the list of icebreaker questions)
+
+
+### Running the Game
+1. Navigate to the directory where the main.py file is located.
+2. Run the game using Python:
+```bash
+python main.py
+```
+The game window should open, displaying a colorful spinning wheel. Click anywhere on the screen to spin the wheel and select a random question.
+
